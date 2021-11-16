@@ -7,6 +7,8 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 source build/envsetup.sh
 lunch aosp_twolip-userdebug
 export TZ=Asia/Kolkata #put before last build command
+export PEX_BUILD_TYPE=OFFICIAL
+export org.pex.build_maintainer="Chandler Bing"
 mka bacon
 
 #OTA Json Generate
