@@ -1,6 +1,6 @@
 # sync rom
 repo init --depth=1 --no-repo-verify -u https://github.com/PixelExtended/manifest -b ace -g default,-mips,-darwin,-notdefault
-git clone https://github.com/sanjeevstunner/Manifest.git --depth 1 -b twolip_aosp-11 .repo/local_manifests
+git clone https://github.com/sanjeevstunner/Manifest.git --depth 1 -b twolip_pex-11 .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
 # build rom
@@ -14,11 +14,11 @@ mka bacon
 #OTA Json Generate
 python3 OTA/support/ota.py
 
-#Values for OTA Json File
-Chandler_bing_here
-twolip
-Redmi Note 6 Pro
-https://forum.xda-developers.com/f/xiaomi-redmi-note-6-pro-roms-kernels-recoveries.8410/
+# #Values for OTA Json File
+# Chandler_bing_here
+# twolip
+# Redmi Note 6 Pro
+# https://forum.xda-developers.com/f/xiaomi-redmi-note-6-pro-roms-kernels-recoveries.8410/
 
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line)
