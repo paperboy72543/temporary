@@ -14,11 +14,11 @@ mka bacon
 #OTA Json Generate
 python3 OTA/support/ota.py
 
-#Values for OTA Json File
-Chandler_bing_here
-twolip
-Redmi Note 6 Pro
-https://forum.xda-developers.com/f/xiaomi-redmi-note-6-pro-roms-kernels-recoveries.8410/
+# #Values for OTA Json File
+# Chandler_bing_here
+# twolip
+# Redmi Note 6 Pro
+# https://forum.xda-developers.com/f/xiaomi-redmi-note-6-pro-roms-kernels-recoveries.8410/
 
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line)
